@@ -1,0 +1,105 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'passion one';
+    src: url('PassionOne-Bold.ttf') format(truetype);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'sriracha';
+    src: url('Sriracha-Regular.ttf') format(truetype);
+    font-style: normal;
+    font-weight: normal;
+}
+
+
+
+h1 {
+    font-family: passion one;
+    color: white;
+    text-align: center;
+    margin-bottom: -10px;
+    margin-top: 7px;
+    font-size: 10vw;
+}
+
+h2 {
+    font-size: 15px;
+    font-family: passion one;
+    color: white;
+    text-align: center;
+    
+}
+
+p {
+    font-family: sriracha;
+    
+    font-size: 3.5vw;
+    margin-bottom: 100px;
+    padding-left: 30px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+    color: blue;
+}
+
+
+
+.cabecalho {
+    background: black;
+    margin: -25px -9px 25px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+.texto-sobre-imagem {
+    position: relative;
+    display: inline-block; /* Faz o background ter o tamanho exato do texto */
+    color: white; /* Cor do texto */
+    font-size: 3.5vw; /* Corrigido: use ponto (.) em vez de vírgula (,) */
+    font-weight: bold;
+    font-family: sriracha;
+    text-shadow: 2px 1px 0px black;
+    background: rgba(0, 0, 0, 0.5); /* Fundo semi-transparente */
+    padding: 10px 30px; /* Ajuste do espaço interno */
+    margin-top: 100px;
+    white-space: nowrap; /* Impede que o texto quebre em várias linhas */
+}
+
+.container-imagem {
+    position: relative;
+    width: 100%;
+    
+    height: auto; /* Permite que a altura cresça conforme o conteúdo */
+    background-image: url('background001.jpg'); /* Substitua pelo caminho da sua imagem */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; /* Mantém o efeito de parallax */
+    background-position: right center;
+     
+}
+
+
+.container-imagem2 {
+    position: relative;
+    width: 100%;
+    
+    height: auto;
+    background-image: url('background002.jpg'); /* Substitua pelo caminho da sua imagem */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; /* Ativa o efeito de parallax */
+    
+    
+}
+
+
+
